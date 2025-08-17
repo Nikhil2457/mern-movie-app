@@ -44,7 +44,7 @@ const MovieList = () => {
     setLoading(true);
     setError(null);
     try {
-      const response = await axios.get(`/api/movies`, {
+      const response = await axios.get(`https://mern-movie-app-uwv5.onrender.com/api/movies`, {
         params: {
           limit: filters.limit,
           page: page,
