@@ -30,8 +30,8 @@ A modern, responsive web application for discovering and exploring trending movi
 
 ## �� Live Demo
 
-**Frontend:** [https://trendmovie-explorer.vercel.app](https://trendmovie-explorer.vercel.app)  
-**Backend API:** [https://trendmovie-api.vercel.app](https://trendmovie-api.vercel.app)
+**Frontend:** (https://mern-movie-app-gamma.vercel.app/) .
+**Backend API:** (https://mern-movie-app-uwv5.onrender.com).
 
 ## 🛠️ Tech Stack
 
