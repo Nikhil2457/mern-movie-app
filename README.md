@@ -114,8 +114,6 @@ npm run dev
 
 Visit `http://localhost:5173` to see the application!
 
-## ��️ Project Structure
-
 ## �� API Endpoints
 
 ### GET `/api/movies`
@@ -210,10 +208,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 If you have any questions or need help:
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/trendmovie-explorer/issues)
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/yourusername)
+- **Email**: nikhiljagatkari@gmail.com
+- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/nikhil-jagatkari)
 
 ## 🔮 Future Enhancements
 
@@ -228,7 +224,7 @@ If you have any questions or need help:
 
 ---
 
-**Made with ❤️ by [Nikhil]**
+**Made with ❤️ by Nikhil**
 
 [![GitHub stars](https://img.shields.io/github/stars/yourusername/trendmovie-explorer?style=social)](https://github.com/yourusername/trendmovie-explorer/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/yourusername/trendmovie-explorer?style=social)](https://github.com/yourusername/trendmovie-explorer/network)
