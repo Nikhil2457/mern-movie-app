@@ -1,3 +1,120 @@
+# 🎬 TrendMovie Explorer
+
+A modern, responsive web application for discovering and exploring trending movies from around the world. Built with the MERN stack (MongoDB, Express.js, React, Node.js) and enhanced with advanced features like dark mode, watchlist functionality, and real-time search.
+
+![TrendMovie Explorer](https://img.shields.io/badge/React-18.2.0-blue?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-18+-green?logo=node.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-8.5.1-green?logo=mongodb)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4.0-38B2AC?logo=tailwind-css)
+
+## ✨ Features
+
+### �� Core Features
+- **Movie Search & Discovery** - Search for any movie with real-time results
+- **Advanced Filtering** - Filter by year, popularity rank, and sort options
+- **Responsive Design** - Works perfectly on desktop, tablet, and mobile
+- **Dark/Light Theme** - Toggle between dark and light modes with persistence
+
+### 🎨 Enhanced User Experience
+- **Movie Details Modal** - Click any movie for detailed information
+- **Watchlist Functionality** - Save movies to watch later with localStorage
+- **Loading States** - Beautiful loading animations and error handling
+- **Pagination** - Smooth navigation through movie results
+- **Hover Effects** - Interactive movie cards with smooth animations
+
+### �� Technical Features
+- **Duplicate Prevention** - Smart caching to avoid duplicate movies
+- **Real-time Search** - Instant search results with debouncing
+- **Image Fallbacks** - Graceful handling of missing movie posters
+- **Performance Optimized** - Lazy loading and efficient rendering
+
+## �� Live Demo
+
+**Frontend:** [https://trendmovie-explorer.vercel.app](https://trendmovie-explorer.vercel.app)  
+**Backend API:** [https://trendmovie-api.vercel.app](https://trendmovie-api.vercel.app)
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React 18** - Modern React with hooks and functional components
+- **Vite** - Fast build tool and development server
+- **Tailwind CSS** - Utility-first CSS framework
+- **Axios** - HTTP client for API requests
+- **Local Storage** - Client-side data persistence
+
+### Backend
+- **Node.js** - JavaScript runtime
+- **Express.js** - Web application framework
+- **MongoDB** - NoSQL database with Mongoose ODM
+- **MongoDB Atlas** - Cloud database hosting
+- **CORS** - Cross-origin resource sharing
+
+### External APIs
+- **IMDb API** - Movie data and information
+- **Movie Database** - Additional movie metadata
+
+## 📦 Installation
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
+- MongoDB Atlas account (free tier available)
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/trendmovie-explorer.git
+cd trendmovie-explorer
+```
+
+### 2. Backend Setup
+```bash
+cd server
+
+# Install dependencies
+npm install
+
+# Create .env file
+cp .env.example .env
+```
+
+**Configure your `.env` file:**
+```env
+MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/movie-app
+IMDB_API_URL=https://imdb.iamidiotareyoutoo.com/search
+PORT=5000
+NODE_ENV=development
+```
+
+### 3. Frontend Setup
+```bash
+cd client
+
+# Install dependencies
+npm install
+
+# Create .env file
+cp .env.example .env
+```
+
+**Configure your `.env` file:**
+```env
+VITE_API_URL=http://localhost:5000
+```
+
+### 4. Start Development Servers
+```bash
+# Terminal 1 - Backend
+cd server
+npm start
+
+# Terminal 2 - Frontend
+cd client
+npm run dev
+```
+
+Visit `http://localhost:5173` to see the application!
+
+## ��️ Project Structure
 
 ## �� API Endpoints
 
